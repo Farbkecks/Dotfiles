@@ -1,0 +1,103 @@
+# Window Customization
+window:
+  opacity: 0.5
+  dimensions:
+    columns: 140
+    lines: 38
+  padding:
+    x: 20
+    y: 20
+scrolling:
+  history: 10000
+  multiplier: 3
+
+# Font Customization
+font:
+  normal:
+    family: "MesloLGS NF"
+  size: 10
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+  use_thin_strokes: false
+  debug:
+    persistent_logging: false
+draw_bold_text_with_bright_colors: true
+
+# Colors (Arc ark)
+colors:
+  # Default colors
+  primary:
+    background: '0x383c4a'
+    foreground: '0xd3dae3'
+
+  # Normal colors
+  normal:
+    black:   '0x4b5164'
+    red:     '0xe14245'
+    green:   '0x5ca75b'
+    yellow:  '0xf6ab32'
+    blue:    '0x4877b1'
+    magenta: '0xa660c3'
+    cyan:    '0x5294e2'
+    white:   '0xa9a9aa'
+
+  # Bright colors
+  bright:
+    black:   '0x4b5164'
+    red:     '0xe14245'
+    green:   '0x5ca75b'
+    yellow:  '0xf6ab32'
+    blue:    '0x4877b1'
+    magenta: '0xa660c3'
+    cyan:    '0x5294e2'
+    white:   '0xa9a9aa'
+
+  # Dim colors (Optional)
+  dim:
+    black:   '0x4b5164'
+    red:     '0xe14245'
+    green:   '0x5ca75b'
+    yellow:  '0xf6ab32'
+    blue:    '0x4877b1'
+    magenta: '0xa660c3'
+    cyan:    '0x5294e2'
+    white:   '0xa9a9aa'
+
+  indexed_colors:
+    - { index: 16, color: '0xdc9656' }
+    - { index: 17, color: '0xa16946' }
+    - { index: 18, color: '0x282828' }
+    - { index: 19, color: '0x383838' }
+    - { index: 20, color: '0xb8b8b8' }
+    - { index: 21, color: '0xe8e8e8' }
+
+  selection:
+    text: '0xffffff'
+    background: '0x8c9696'
+    white:   '0xffffff'
+
+cursor:
+  style:
+    shape: Beam
+    blinking: on
+    blink-interval: 750
+    unfocused_hollow: true
+
+key_bindings:
+  #spring ein Wort nach rechts
+  - { key: Right, mods: Control, chars: "\x1BF" }
+  #spring ein Wort nach links
+  - { key: Left,  mods: Control, chars: "\x1BB" }
+  #lösche ein Wort links
+  - { key: Back,  mods: Control, chars: "\x17" }
+  #unbinding shortcuts
+  - { key: V,  mods: Control, action: "none" }
+  #- { key: C,  mods: Control, action: "none" }
+  - { key: Delete,  mods: Control, action: "none" }
+  - { key: Delete,  mods: Alt, action: "none" }
+  - { key: Right,  mods: Control | Shift, action: "none" }
+  - { key: Left,  mods: Control | Shift, action: "none" }

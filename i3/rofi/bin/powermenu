@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+DIR="$HOME/.config/i3"
+
+rofi_command="rofi -theme $DIR/rofi/themes/powermenu.rasi"
+
+uptime=$(uptime -p | sed -e 's/up //g')
+
+# Options
+shutdown=""
+reboot=""
+lock=""
+suspend=""
+
+# Variable passed to rofi
+options="$shutdown\n$reboot\n$lock\n$suspend"
+
+chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 0)"
+case $chosen in
+    $shutdown)
+		shutdown now
+        ;;
+    $reboot)
+		reboot
+        ;;
+    $lock)
+        ~/.config/i3/scripts/blur-lock.sh
+        ;;
+    $suspend)
+		systemctl suspend
+        ;;
+esac

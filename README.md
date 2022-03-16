@@ -7,4 +7,5 @@
 * https://github.com/polybar/polybar
 * https://github.com/Jguer/yay
 * https://faq.i3wm.org/question/2974/how-to-use-gtk-themes-with-i3.1.html, lxappearance
+* https://wiki.archlinux.org/title/NetworkManager
 * 

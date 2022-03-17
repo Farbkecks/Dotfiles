@@ -27,9 +27,6 @@
 * gimp
 * lxappearance
 
-### Utility
-* https://wiki.archlinux.org/title/NetworkManager
-
 ### Theme
 * https://faq.i3wm.org/question/2974/how-to-use-gtk-themes-with-i3.1.html, lxappearance
 

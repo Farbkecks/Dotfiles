@@ -11,13 +11,14 @@
 * https://github.com/Jguer/yay
 
 ### Pakete Install
-```yay -S gscreenshot xclip polybar ttf-font-awesome python-i3ipc arc-gtk-theme thunar visual-studio-code-bin discord gimp lxappearance xorg-xrandr thunar-archive-plugin neofetch```
+```yay -S gscreenshot xclip polybar ttf-font-awesome python-i3ipc arc-gtk-theme arc-icon-theme thunar visual-studio-code-bin discord gimp lxappearance xorg-xrandr thunar-archive-plugin neofetch```
 * gscreenshot
 * xclip
 * polybar, https://github.com/polybar/polybar, https://www.reddit.com/r/i3wm/comments/6lo0z0/how_to_use_polybar/
 * ttf-font-awesome, https://fontawesome.com/v5/cheatsheet
 * python-i3ipc
 * arc-gtk-theme
+* arc-icon-theme
 * firefox
 * thunar
 * visual-studio-code-bin

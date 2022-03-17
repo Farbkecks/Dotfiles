@@ -10,7 +10,7 @@
 * https://github.com/Jguer/yay
 
 ## Pakete Install
-```yay -s gscreenshot xclip polybar ttf-font-awesome python-icipc```
+```yay -S gscreenshot xclip polybar ttf-font-awesome python-icipc```
 * gscreenshot
 * xclip
 * polybar, https://github.com/polybar/polybar, https://www.reddit.com/r/i3wm/comments/6lo0z0/how_to_use_polybar/

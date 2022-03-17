@@ -6,8 +6,10 @@
 * Europe/Berlin
 * https://www.youtube.com/watch?v=8mC5IHh-dj8
 
+* sudo pacman -Suy
+
 ### install Firefox
-* pacman -S firefox
+* sudo pacman -S firefox
 
 ### yay install
 * https://github.com/Jguer/yay

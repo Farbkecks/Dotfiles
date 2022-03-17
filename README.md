@@ -23,6 +23,7 @@
 * discord
 * telegram
 * gimp
+* lxappearance
 
 ### Utility
 * https://wiki.archlinux.org/title/NetworkManager

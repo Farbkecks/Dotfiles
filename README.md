@@ -11,7 +11,7 @@
 * https://github.com/Jguer/yay
 
 ### Pakete Install
-```yay -S gscreenshot xclip polybar ttf-font-awesome python-i3ipc arc-gtk-theme arc-icon-theme thunar visual-studio-code-bin discord gimp lxappearance xorg-xrandr thunar-archive-plugin neofetch```
+```yay -S gscreenshot xclip polybar ttf-font-awesome python-i3ipc arc-gtk-theme arc-icon-theme thunar visual-studio-code-bin discord gimp lxappearance xorg-xrandr thunar-archive-plugin file-roller neofetch```
 * gscreenshot
 * xclip
 * polybar, https://github.com/polybar/polybar, https://www.reddit.com/r/i3wm/comments/6lo0z0/how_to_use_polybar/
@@ -30,6 +30,7 @@
 * xorg-xrandr
 * thunar-archive-plugin
 * neofetch
+* file-roller
 
 ### Theme
 * https://faq.i3wm.org/question/2974/how-to-use-gtk-themes-with-i3.1.html, lxappearance

@@ -22,6 +22,7 @@
 * visual-studio-code-bin
 * discord
 * telegram
+* gimp
 
 ## Utility
 * https://wiki.archlinux.org/title/NetworkManager

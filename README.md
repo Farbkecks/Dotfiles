@@ -1,15 +1,15 @@
 # Dotfiles
 
-## Arch install
+### Arch install
 * https://github.com/MatMoul/archfi
 
-## i3wm-gaps install
+### i3wm-gaps install
 * https://low-orbit.net/arch-linux-how-to-install-i3-gaps
 
-## yay install
+### yay install
 * https://github.com/Jguer/yay
 
-## Pakete Install
+### Pakete Install
 ```yay -S gscreenshot xclip polybar ttf-font-awesome python-icipc```
 * gscreenshot
 * xclip
@@ -24,13 +24,13 @@
 * telegram
 * gimp
 
-## Utility
+### Utility
 * https://wiki.archlinux.org/title/NetworkManager
 
-## Theme
+### Theme
 * https://faq.i3wm.org/question/2974/how-to-use-gtk-themes-with-i3.1.html, lxappearance
 
 
-## Geklaut von:
+### Geklaut von:
 * https://github.com/olemartinorg/i3-alternating-layout
 * Archcraft, https://archcraft.io/

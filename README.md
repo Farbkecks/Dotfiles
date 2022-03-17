@@ -16,6 +16,7 @@
 * polybar, https://github.com/polybar/polybar, https://www.reddit.com/r/i3wm/comments/6lo0z0/how_to_use_polybar/
 * ttf-font-awesome, https://fontawesome.com/v5/cheatsheet
 * python-i3ipc
+* arc-gtk-theme
 
 ## Utility
 * https://wiki.archlinux.org/title/NetworkManager

@@ -17,6 +17,9 @@
 * ttf-font-awesome, https://fontawesome.com/v5/cheatsheet
 * python-i3ipc
 * arc-gtk-theme
+* firefox
+* thunar
+* visual-studio-code-bin
 
 ## Utility
 * https://wiki.archlinux.org/title/NetworkManager

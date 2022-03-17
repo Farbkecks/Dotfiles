@@ -7,7 +7,7 @@ DIR="$HOME/.config/i3"
 
 rofi \
 	-show drun \
-	-modi run,drun \
+	-modi drun \
 	-no-lazy-grab \
 	-scroll-method 1 \
 	-drun-match-fields all \

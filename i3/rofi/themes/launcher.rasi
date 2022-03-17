@@ -3,15 +3,11 @@
 
 configuration {
     location: 						0;
-    fixed-num-lines: 				true;
-    show-icons: 					false;
-    sidebar-mode: 					true;
-    scroll-method: 					1;
-    window-format: 					"[{w}] ··· {c} ···   {t}";
+    show-icons: 					true;
+    scroll-method: 					0;
     click-to-exit: 					true;
-    combi-hide-mode-prefix: 		false;
-    display-run: 					"Settings";
-    display-drun: 					"Programms";
+    combi-hide-mode-prefix: 		true;
+    display-drun: 					"";
 }
 
 @import "colors.rasi"
@@ -29,22 +25,6 @@ window {
     height: 						0px;
 }
 
-prompt {
-    spacing: 						0;
-    border: 						0;
-    border-radius: 					10px;
-    background-color:             	@highlight;
-    text-color: 					@background;
-    padding:    					6px 14px 6px 10px;
-}
-
-textbox-prompt-colon {
-    expand: 						false;
-    str: 							"";
-    padding:    					6px 4px 6px 4px;
-    text-color: 					inherit;
-}
-
 entry {
     spacing:    					0;
     expand:                         true;
@@ -58,18 +38,13 @@ entry {
     border-radius: 					0px;
 }
 
-case-indicator {
-    spacing:    					0;
-    text-color: 					@foreground;
-}
-
 inputbar {
     spacing:    					0px;
     text-color: 					@foreground;
     border: 						0px;
     border-color: 					@selected;
     border-radius: 					0px;
-    children: 						[ prompt,textbox-prompt-colon,entry ];
+    children: 						[ prompt, entry ];
 }
 
 mainbox {
@@ -80,8 +55,8 @@ mainbox {
 }
 
 listview {
-    lines:							8;
-    columns:						2;
+    lines:							10;
+    columns:						1;
     fixed-height: 					0;
     border: 						0px;
     border-color: 					@foreground;
@@ -90,10 +65,6 @@ listview {
     padding: 						4px 0px 0px;
 }
 
-element-text, element-icon {
-    background-color: inherit;
-    text-color:       inherit;
-}
 
 element {
     border: 						0px;
@@ -139,46 +110,7 @@ element alternate.active {
     text-color:       				@foreground;
 }
 
-sidebar {
-    border:       					0px;
-    border-color: 					@selected;
-    border-radius: 					0px;
-}
 
-button {
-    margin: 						5px 10px 0px 10px;
-    horizontal-align:               0.5;
-    vertical-align:                 0.5;
-    padding: 						7px;
-    background-color:             	@highlight;
-    text-color: 					@background;
-    border: 						0px;
-    border-radius: 					10px;
-    border-color: 					@selected;
-}
 
-button selected {
-    background-color:             	@on;
-    text-color: 					@background;
-    border: 						0px;
-    border-radius: 					10px;
-    border-color: 					@selected;
-}
 
-scrollbar {
-    width:        					4px;
-    border:       					0px;
-    handle-color: 					@foreground;
-    handle-width: 					8px;
-    padding:      					0;
-}
 
-message {
-    border: 						0px;
-    border-color: 					@selected;
-    padding: 						1px;
-}
-
-textbox {
-    text-color: 					@foreground;
-}

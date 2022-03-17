@@ -1,11 +1,11 @@
 # Dotfiles
 
 ### Arch install
-* https://github.com/MatMoul/archfi
-* https://www.youtube.com/watch?v=u2l54FMgWq4&t=39s
+* archinstall
+* https://www.youtube.com/watch?v=8mC5IHh-dj8
 
-### i3wm-gaps install
-* https://low-orbit.net/arch-linux-how-to-install-i3-gaps
+### yay install
+
 
 ### Pakete Install
 ```yay -S gscreenshot xclip polybar ttf-font-awesome python-icipc```

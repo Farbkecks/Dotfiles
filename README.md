@@ -7,9 +7,6 @@
 ### i3wm-gaps install
 * https://low-orbit.net/arch-linux-how-to-install-i3-gaps
 
-### yay install
-* https://github.com/Jguer/yay
-
 ### Pakete Install
 ```yay -S gscreenshot xclip polybar ttf-font-awesome python-icipc```
 * gscreenshot

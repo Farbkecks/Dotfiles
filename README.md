@@ -4,12 +4,10 @@
 * archinstall
 * desktop -> i3 -> i3-gaps
 * Europe/Berlin
+* firefox alacritty
 * https://www.youtube.com/watch?v=8mC5IHh-dj8
 
 * sudo pacman -Suy
-
-### install Firefox
-* sudo pacman -S firefox alacritty
 
 ### yay install
 * https://github.com/Jguer/yay

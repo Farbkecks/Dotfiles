@@ -2,6 +2,7 @@
 
 ### Arch install
 * https://github.com/MatMoul/archfi
+* https://www.youtube.com/watch?v=u2l54FMgWq4&t=39s
 
 ### i3wm-gaps install
 * https://low-orbit.net/arch-linux-how-to-install-i3-gaps

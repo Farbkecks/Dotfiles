@@ -9,13 +9,13 @@
 * sudo pacman -Suy
 
 ### install Firefox
-* sudo pacman -S firefox
+* sudo pacman -S firefox alacritty
 
 ### yay install
 * https://github.com/Jguer/yay
 
 ### Pakete Install
-```yay -S gscreenshot xclip polybar ttf-font-awesome python-i3ipc arc-gtk-theme thunar visual-studio-code-bin discord telegram gimp lxappearance alacritty```
+```yay -S gscreenshot xclip polybar ttf-font-awesome python-i3ipc arc-gtk-theme thunar visual-studio-code-bin discord telegram gimp lxappearance```
 * gscreenshot
 * xclip
 * polybar, https://github.com/polybar/polybar, https://www.reddit.com/r/i3wm/comments/6lo0z0/how_to_use_polybar/

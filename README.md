@@ -6,6 +6,7 @@
 * https://www.youtube.com/watch?v=8mC5IHh-dj8
 
 ### yay install
+*https://github.com/Jguer/yay
 
 
 ### Pakete Install

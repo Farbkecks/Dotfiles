@@ -20,6 +20,8 @@
 * firefox
 * thunar
 * visual-studio-code-bin
+* discord
+* telegram
 
 ## Utility
 * https://wiki.archlinux.org/title/NetworkManager

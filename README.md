@@ -22,7 +22,7 @@ yay -S gscreenshot xclip polybar python-i3ipc visual-studio-code-bin discord gim
 ### Remove
 * nitrogen
 
-### better terminal
+## Better Terminal
 ```
 #!/bin/bash
 touch "$HOME/.cache/zshhistory"
@@ -34,9 +34,12 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 chsh $USER
 /bin/zsh
 ```
-
-* exec zsh
-* p10k configure
+```
+exec zsh
+```
+```
+p10k configure
+```
 * reboot
 
 

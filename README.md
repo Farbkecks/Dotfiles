@@ -2,6 +2,7 @@
 
 ### Arch install
 * archinstall
+* desktop -> i3 -> i3-gaps
 * https://www.youtube.com/watch?v=8mC5IHh-dj8
 
 ### yay install

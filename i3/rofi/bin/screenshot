@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+DIR="$HOME/.config/i3"
+rofi_command="rofi -theme $DIR/rofi/themes/screenshot.rasi"
+
+# Buttons
+screen=""
+area=""
+save=""
+
+# take shots
+shotarea () {
+	:
+}
+
+shotwin () {
+	:
+}
+
+shotsave () {
+	:
+}
+
+# Variable passed to rofi
+options="$screen\n$area\n$save"
+
+chosen="$(echo -e "$options" | $rofi_command -p 'Take Screenshot' -dmenu -selected-row 1)"
+case $chosen in
+    $screen)
+		gscreenshot -c
+        ;;
+    $area)
+		gscreenshot -s -c
+        ;;
+    $save)
+		gscreenshot -s -f ~/Bilder/Screenshots
+		;;
+esac
+

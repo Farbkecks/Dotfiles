@@ -14,6 +14,7 @@
 * xclip
 * polybar, https://github.com/polybar/polybar, https://www.reddit.com/r/i3wm/comments/6lo0z0/how_to_use_polybar/
 * awesom font, https://fontawesome.com/v5/cheatsheet
+* python-i3ipc
 
 ## Utility
 * https://wiki.archlinux.org/title/NetworkManager

@@ -210,16 +210,16 @@ fuzzy-match = true
 
 ; ws-icon-[0-9]+ = label;icon
 ; NOTE: The label needs to match the name of the i3 workspace
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;漣
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;ﳴ
+ws-icon-0 = 1;1
+ws-icon-1 = 2;2
+ws-icon-2 = 3;3
+ws-icon-3 = 4;4
+ws-icon-4 = 5;5
+ws-icon-5 = 6;6
+ws-icon-6 = 7;7
+ws-icon-7 = 8;8
+ws-icon-8 = 9;9
+ws-icon-9 = 10;10
 ws-icon-default = 
 ; NOTE: You cannot skip icons, e.g. to get a ws-icon-6
 ; you must also define a ws-icon-5.
@@ -706,6 +706,8 @@ type = internal/pulseaudio
 ; If not, uses default sink
 sink = alsa_output.pci-0000_12_00.3.analog-stereo
 
+click-right = exec pavucontrol
+
 ; Use PA_VOLUME_UI_MAX (~153%) if true, or PA_VOLUME_NORM (100%) if false
 ; Default: true
 use-ui-max = false
@@ -827,16 +829,16 @@ label-warn-foreground = ${color.RED}
 ; Requires the <ramp> tag
 ; The icon selection will range from 0 to `warn-temperature`
 ; with the current temperature as index.
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-3 = 
-ramp-4 = 
-ramp-5 = 
-ramp-6 = 
-ramp-7 = 
-ramp-8 = 
-ramp-9 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 6
+ramp-6 = 7
+ramp-7 = 8
+ramp-8 = 9
+ramp-9 = 10
 ramp-font = 2
 ramp-foreground = ${color.YELLOW}
 ;;ramp-foreground = #55
@@ -846,14 +848,14 @@ ramp-foreground = ${color.YELLOW}
 [module/menu]
 type = custom/text
 
-content = " "
-content-font = 5
+content = "  "
+content-font = 7
 ;content = " "
 ;content-font = 3
 content-foreground = ${color.GREEN}
 content-padding = 0
 
-click-left = ~/.config/i3/rofi/bin/launcher
+click-left = exec rofi -modi drun -show drun \-config ~/.config/i3/rofi/themes/launcher.rasi
 ;;click-middle = path_to_script
 ;;click-right = path_to_script
 
@@ -870,7 +872,7 @@ content-font = 3
 content-foreground = ${color.RED}
 content-padding = 0
 
-click-left = ~/.config/i3/rofi/bin/powermenu
+click-left = bash ~/.config/i3/rofi/bin/powermenu
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 ;;	    __________  ______

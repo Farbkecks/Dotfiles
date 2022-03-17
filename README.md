@@ -40,7 +40,9 @@ exec zsh
 ```
 p10k configure
 ```
-* reboot
+```
+reboot
+```
 
 
 ## Geklaut von:

@@ -12,7 +12,7 @@
 * https://github.com/Jguer/yay
 
 ### Pakete Install
-```yay -S gscreenshot xclip polybar ttf-font-awesome python-i3ipc arc-gtk-theme thunar visual-studio-code-bin discord telegram gimp lxappearance```
+```yay -S gscreenshot xclip polybar ttf-font-awesome python-i3ipc arc-gtk-theme thunar visual-studio-code-bin discord telegram gimp lxappearance alacritty```
 * gscreenshot
 * xclip
 * polybar, https://github.com/polybar/polybar, https://www.reddit.com/r/i3wm/comments/6lo0z0/how_to_use_polybar/
@@ -26,6 +26,7 @@
 * telegram
 * gimp
 * lxappearance
+* alacritty
 
 ### Theme
 * https://faq.i3wm.org/question/2974/how-to-use-gtk-themes-with-i3.1.html, lxappearance

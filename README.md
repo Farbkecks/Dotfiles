@@ -28,9 +28,10 @@ yay -S gscreenshot xclip polybar python-i3ipc visual-studio-code-bin discord gim
 #!/bin/bash
 touch "$HOME/.cache/zshhistory"
 #-- Setup Alias in $HOME/zsh/aliasrc
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/powerlevel10k
+echo 'source ~/.config/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 ```
+* edit zshrc
 ```
 chsh $USER
 /bin/zsh

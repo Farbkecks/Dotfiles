@@ -72,6 +72,3 @@ reboot
 * Dash to Panel
 * Blur my Shell
 * Media Controls
-
-## Theme
-* tweak

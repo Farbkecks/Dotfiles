@@ -17,6 +17,7 @@ yay -S gscreenshot xclip polybar python-i3ipc visual-studio-code-bin discord gim
 * ttf-jetbrains-mono
 * zsh
 * vim
+* gnome-keyring
 
 
 ## Remove

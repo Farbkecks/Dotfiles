@@ -22,6 +22,7 @@ yay -S gscreenshot xclip polybar python-i3ipc visual-studio-code-bin discord gim
 
 ## Remove
 * nitrogen
+* in $home: rm -r Musik Öffentlich Schreibtisch Videos Vorlagen
 
 ## Better Terminal
 ```

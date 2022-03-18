@@ -1,8 +1,12 @@
 # Dotfiles
 
+# To-Do
+* set feh
+* systray aus lösung
+
 ## Install
 ```
-yay -S gscreenshot xclip polybar python-i3ipc visual-studio-code-bin discord gimp, alacritty
+yay -S gscreenshot xclip polybar python-i3ipc visual-studio-code-bin discord gimp alacritty feh ttf-jetbrains-mono zsh vim gnome-keyring stalonetray
 ```
 * gscreenshot
 * xclip
@@ -18,6 +22,7 @@ yay -S gscreenshot xclip polybar python-i3ipc visual-studio-code-bin discord gim
 * zsh
 * vim
 * gnome-keyring
+* stalonetray
 
 
 ## Remove

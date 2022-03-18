@@ -45,6 +45,8 @@ p10k configure
 reboot
 ```
 
+## Lösung
+* https://www.reddit.com/r/i3wm/comments/iq76ie/drop_down_system_tray/
 
 ## Geklaut von:
 * https://github.com/olemartinorg/i3-alternating-layout

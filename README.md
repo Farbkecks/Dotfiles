@@ -1,6 +1,6 @@
-# Dotfiles
+# i3wm-gaps (EndeavourOs)
 
-# To-Do
+## To-Do
 * set feh
 * systray aus lösung
 
@@ -60,3 +60,18 @@ reboot
 * Archcraft, https://archcraft.io/
 * https://fontawesome.com/v5/cheatsheet
 * https://www.christitus.com/zsh/
+
+# Gnome (EndeavourOs)
+
+## Pakete
+* pamac-aur
+* extension-manager
+* spotify
+
+## Extention
+* Dash to Panel
+* Blur my Shell
+* Media Controls
+
+## Theme
+* tweak

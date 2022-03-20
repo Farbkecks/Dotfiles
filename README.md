@@ -3,6 +3,7 @@
 ## To-Do
 * set feh
 * systray aus lösung
+* https://github.com/AdnanHodzic/auto-cpufreq
 
 ## Install
 ```

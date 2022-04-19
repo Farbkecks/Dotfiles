@@ -34,6 +34,7 @@ sudo def install
 * zsh
 * vim
 * rofi
+* picom
 
 
 ## Remove

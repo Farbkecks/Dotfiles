@@ -30,7 +30,6 @@ sudo def install
 * alacritty
 * feh
 * jetbrains-mono-fonts-all.noarch
-* fontawesome5-fonts-all.noarch
 * zsh
 * vim
 * rofi

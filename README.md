@@ -1,4 +1,4 @@
-# i3wm-gaps (EndeavourOs)
+# i3wm-gaps Fedora i3 spin
 
 ## To-Do
 * set feh
@@ -7,28 +7,37 @@
 
 ## Install
 ```
-yay -S gscreenshot xclip polybar python-i3ipc visual-studio-code-bin discord gimp alacritty feh ttf-jetbrains-mono zsh vim gnome-keyring stalonetray
+sudo dnf update
 ```
-* gscreenshot
-* xclip
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+dnf check-update
+sudo dnf install code
+```
+
+```
+sudo dnf install --allowerasing i3-gaps
+```
+
+```
+sudo def install
+```
+
+* i3-gaps
+* vscode
 * polybar
-* python-i3ipc
-* visual-studio-code-bin
-* discord
-* telegram ---
-* gimp
 * alacritty
 * feh
-* ttf-jetbrains-mono
+* jetbrains-mono-fonts-all.noarch
+* fontawesome5-fonts-all.noarch
 * zsh
 * vim
-* gnome-keyring
-* stalonetray
+* rofi
 
 
 ## Remove
-* nitrogen
-* in $home: ```rm -r Musik Öffentlich Schreibtisch Videos Vorlagen```
+
 
 ## Better Terminal
 ```
@@ -54,11 +63,9 @@ reboot
 ```
 
 ## Lösung
-* https://www.reddit.com/r/i3wm/comments/iq76ie/drop_down_system_tray/
 
 ## Geklaut von:
 * https://github.com/olemartinorg/i3-alternating-layout
-* Archcraft, https://archcraft.io/
 * https://fontawesome.com/v5/cheatsheet
 * https://www.christitus.com/zsh/
 

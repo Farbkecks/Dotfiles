@@ -37,8 +37,10 @@ sudo def install
 * picom
 
 
-## Remove
-
+## Update Font
+```
+sudo fc-cache -fv
+```
 
 ## Better Terminal
 ```

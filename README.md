@@ -34,6 +34,7 @@ sudo def install
 * vim
 * rofi
 * picom
+* python3-i3ipc.noarch
 
 
 ## Update Font

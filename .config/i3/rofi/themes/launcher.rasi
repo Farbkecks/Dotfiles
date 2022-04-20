@@ -18,7 +18,7 @@ configuration {
 }
 
 window {
-    border: 						0px;
+    border: 						1px;
     border-color: 					@selected;
     border-radius: 					16px;
     width: 							600px;

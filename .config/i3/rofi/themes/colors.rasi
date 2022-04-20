@@ -2,10 +2,10 @@
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 * {
-	background:			#1e222a;
-	background-alt:		#262A32;
-	foreground:			#c8ccd4;
-	selected:			#61afef;
+	background:			#282A2E;
+	background-alt:		#373B41;
+	foreground:			#C5C8C6;
+	selected:			#F0C674;
 	highlight:			#DF6B74;
 	urgent:				#e06c75;
 	on:					#98c379;

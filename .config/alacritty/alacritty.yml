@@ -1,6 +1,7 @@
 # Window Customization
 window:
-  opacity: 0.5
+  background_opacity: 1.0
+  # opacity: 
   dimensions:
     columns: 140
     lines: 38
@@ -11,28 +12,16 @@ scrolling:
   history: 10000
   multiplier: 3
 
-# Font Customization
-font:
-  normal:
-    family: "JetBrains Mono"
-  size: 10
-  offset:
-    x: 0
-    y: 0
-  glyph_offset:
-    x: 0
-    y: 0
-  use_thin_strokes: false
-  debug:
-    persistent_logging: false
-draw_bold_text_with_bright_colors: true
+
+# weiß: #C5C8C6
+# gelb: #F0C674
 
 # Colors (Arc ark)
 colors:
   # Default colors
   primary:
-    background: '0x383c4a'
-    foreground: '0xd3dae3'
+    background: '#282A2E'
+    foreground: '#F0C674'
 
   # Normal colors
   normal:

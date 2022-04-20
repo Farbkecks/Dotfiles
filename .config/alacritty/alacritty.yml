@@ -65,8 +65,8 @@ colors:
     - { index: 21, color: '0xe8e8e8' }
 
   selection:
-    text: '0xffffff'
-    background: '0x8c9696'
+    text: '#282A2E'
+    background: '#D2A653'
     white:   '0xffffff'
 
 cursor:

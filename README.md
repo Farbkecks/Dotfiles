@@ -1,8 +1,6 @@
 # i3wm-gaps Fedora i3 spin
 
 ## To-Do
-* set feh
-* systray aus lösung
 * https://github.com/AdnanHodzic/auto-cpufreq
 
 ## Install
@@ -35,6 +33,7 @@ sudo def install
 * rofi
 * picom
 * python3-i3ipc.noarch
+* lxappearance
 
 
 ## Update Font

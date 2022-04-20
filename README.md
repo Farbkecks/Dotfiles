@@ -5,6 +5,7 @@
 * zsh
 * rofi (screenshot, powermenu)
 * rice lightdm
+* thunar zip
 
 ## Install
 ```

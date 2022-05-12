@@ -40,6 +40,7 @@ sudo def install
 * zsh-syntax-highlighting.noarch
 * thunar-archive-plugin.x86_64
 * xclip
+* lightdm-gtk-greeter-settings
 
 ## Add to dnf config
 ```

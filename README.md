@@ -4,6 +4,7 @@
 * https://github.com/AdnanHodzic/auto-cpufreq
 * rofi (screenshot, powermenu)
 * rice lightdm
+* i3lock
 
 ## Install
 ```
@@ -120,6 +121,12 @@ p10k configure
 ```
 reboot
 ```
+## Install gscreenshot
+```
+sudo dnf copr enable thenaterhood/gscreenshot
+sudo dnf install gscreenshot.noarc
+```
+
 ## Geklaut von:
 * https://github.com/olemartinorg/i3-alternating-layout
 * https://fontawesome.com/v5/cheatsheet

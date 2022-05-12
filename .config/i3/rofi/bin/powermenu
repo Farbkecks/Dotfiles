@@ -27,7 +27,7 @@ case $chosen in
 		reboot
         ;;
     $lock)
-        ~/.config/i3/scripts/blur-lock.sh
+        i3lock -i .config/wallpaper/lockscreen.png
         ;;
     $suspend)
 		systemctl suspend

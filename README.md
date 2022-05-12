@@ -40,7 +40,7 @@ sudo def install
 * lxappearance
 * zsh-syntax-highlighting.noarch
 * thunar-archive-plugin.x86_64
-* clips-xclips.x86_64
+* xclip
 
 ## Add to dnf config
 ```

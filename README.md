@@ -39,9 +39,10 @@ sudo def install
 * picom
 * python3-i3ipc.noarch
 * lxappearance
+* zsh-syntax-highlighting.noarch
 
 
-## Add to dnf confg
+## Add to dnf config
 
 ```
 sudo vim /etc/dnf/dnf.conf

@@ -2,7 +2,6 @@
 
 ## To-Do
 * https://github.com/AdnanHodzic/auto-cpufreq
-* rofi (screenshot, powermenu)
 * rice lightdm
 * i3lock
 

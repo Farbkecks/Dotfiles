@@ -2,7 +2,6 @@
 
 ## To-Do
 * https://github.com/AdnanHodzic/auto-cpufreq
-* i3lock
 
 ## Install
 ```

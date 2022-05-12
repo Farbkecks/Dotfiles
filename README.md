@@ -95,6 +95,10 @@ chmod +x lf
 sudo mv lf /usr/local/bin
 ```
 
+## See Key code
+* strg + v
+* key
+
 ## Update Font
 ```
 sudo fc-cache -fv

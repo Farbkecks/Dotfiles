@@ -43,13 +43,21 @@ sudo def install
 * install thunar-archive-plugin.x86_64
 
 ## Add to dnf config
-
 ```
 sudo vim /etc/dnf/dnf.conf
 
 fastestmirror=True
 max-parallel_downloads=10
 defaultyes=True
+```
+
+## Add lf
+* https://github.com/gokcehan/lf/releases
+* hier die 64bit Version (lf-linux-amd64.tar.gz)
+```
+tar xvf lf-linux-amd64.tar.gz
+chmod +x lf
+sudo mv lf /usr/local/bin
 ```
 
 ## Update Font

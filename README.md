@@ -124,7 +124,7 @@ reboot
 ## Install gscreenshot
 ```
 sudo dnf copr enable thenaterhood/gscreenshot
-sudo dnf install gscreenshot.noarc
+sudo dnf install gscreenshot
 ```
 
 ## Geklaut von:

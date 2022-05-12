@@ -11,19 +11,6 @@ screen=""
 area=""
 save=""
 
-# take shots
-shotarea () {
-	:
-}
-
-shotwin () {
-	:
-}
-
-shotsave () {
-	:
-}
-
 # Variable passed to rofi
 options="$screen\n$area\n$save"
 

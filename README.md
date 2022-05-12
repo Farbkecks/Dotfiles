@@ -40,7 +40,6 @@ sudo def install
 * python3-i3ipc.noarch
 * lxappearance
 * zsh-syntax-highlighting.noarch
-* golang
 
 
 ## Add to dnf config

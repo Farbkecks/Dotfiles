@@ -41,6 +41,16 @@ sudo def install
 * lxappearance
 
 
+## Add to dnf confg
+
+```
+sudo vim /etc/dnf/dnf.conf
+
+fastestmirror=True
+max-parallel_downloads=10
+defaultyes=True
+```
+
 ## Update Font
 ```
 sudo fc-cache -fv

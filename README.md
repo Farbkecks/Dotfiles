@@ -40,7 +40,7 @@ sudo def install
 * python3-i3ipc.noarch
 * lxappearance
 * zsh-syntax-highlighting.noarch
-
+* install thunar-archive-plugin.x86_64
 
 ## Add to dnf config
 

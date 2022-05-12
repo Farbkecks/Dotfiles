@@ -120,13 +120,11 @@ p10k configure
 ```
 reboot
 ```
-
-## Lösung
-
 ## Geklaut von:
 * https://github.com/olemartinorg/i3-alternating-layout
 * https://fontawesome.com/v5/cheatsheet
 * https://www.christitus.com/zsh/
+* https://www.youtube.com/watch?v=eLEo4OQ-cuQ
 
 # Gnome (EndeavourOs)
 

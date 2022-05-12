@@ -2,7 +2,6 @@
 
 ## To-Do
 * https://github.com/AdnanHodzic/auto-cpufreq
-* rice lightdm
 * i3lock
 
 ## Install

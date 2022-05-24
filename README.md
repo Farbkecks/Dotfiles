@@ -19,7 +19,7 @@ sudo dnf install --allowerasing i3-gaps
 ```
 
 ```
-sudo def install polybar alacritty feh jetbrains-mono-fonts-all fontawesome5-fonts-all zsh vim rofi picom python3-i3ipc lxappearance zsh-syntax-highlighting thunar-archive-plugin.x86_64 xclip lightdm-gtk-greeter-settings
+sudo dnf install polybar alacritty feh jetbrains-mono-fonts-all fontawesome5-fonts-all zsh vim rofi picom python3-i3ipc lxappearance zsh-syntax-highlighting thunar-archive-plugin.x86_64 xclip lightdm-gtk-greeter-settings
 ```
 
 * i3-gaps

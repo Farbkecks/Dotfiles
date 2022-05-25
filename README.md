@@ -39,6 +39,7 @@ sudo dnf install polybar alacritty feh jetbrains-mono-fonts-all fontawesome5-fon
 * thunar-archive-plugin.x86_64
 * xclip
 * lightdm-gtk-greeter-settings
+* grub-customizer
 
 ## Add to dnf config
 ```

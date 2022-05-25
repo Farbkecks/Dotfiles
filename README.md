@@ -66,6 +66,9 @@ sudo mv lf /usr/local/bin
 ## Fix Tearing
 * TearFree
 
+## scaling
+* https://unix.stackexchange.com/questions/267885/how-do-i-scale-i3-window-manager-for-my-hidpi-display
+
 ## Update Font
 ```
 sudo fc-cache -fv

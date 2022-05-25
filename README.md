@@ -63,6 +63,9 @@ sudo mv lf /usr/local/bin
 * strg + v
 * key
 
+## Fix Tearing
+* TearFree
+
 ## Update Font
 ```
 sudo fc-cache -fv

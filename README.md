@@ -108,12 +108,13 @@ sudo dnf install gscreenshot
 * https://www.christitus.com/zsh/
 * https://www.youtube.com/watch?v=eLEo4OQ-cuQ
 
-# Gnome (EndeavourOs)
+# Gnome (Fedora)
+## Hilfreich
+* https://www.hutsky.cz/blog/2021/05/gnome-3-and-switch-to-workspace-5-and-above-shortcut/
+
 
 ## Pakete
-* pamac-aur
 * extension-manager
-* spotify
 
 ## Extention
 * Dash to Panel
@@ -121,3 +122,4 @@ sudo dnf install gscreenshot
 * Media Controls
 * Sound Input & output Device Chooser
 * WinTile ?
+* pop shell (dnf)

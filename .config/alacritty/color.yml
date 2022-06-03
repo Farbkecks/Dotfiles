@@ -1,0 +1,14 @@
+live_config_reload: true
+schemes:
+  gruvbox_light: &gruvbox_light
+    primary:
+      background: '0xf9f5d7' # hard contrast
+      foreground: '#9e6a03'
+
+  gruvbox_dark: &gruvbox_dark
+    primary:
+      background: '#282A2E' # hard contrast
+      foreground: '#F0C674'
+
+colors: *gruvbox_light
+

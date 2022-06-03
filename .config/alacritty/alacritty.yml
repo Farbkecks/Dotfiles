@@ -1,3 +1,7 @@
+import:
+  - "~/.config/alacritty/color.yml"
+live_config_reload: true
+
 # Window Customization
 window:
   background_opacity: 1.0
@@ -12,6 +16,18 @@ scrolling:
   history: 10000
   multiplier: 3
 
+schemes:
+  gruvbox_light: &gruvbox_light
+    primary:
+      background: '0xf9f5d7' # hard contrast
+      foreground: '#f7a505'
+
+  gruvbox_dark: &gruvbox_dark
+    primary:
+      background: '#282A2E' # hard contrast
+      foreground: '#F0C674'
+
+colors: *gruvbox_dark
 
 # weiß: #C5C8C6
 # gelb: #F0C674
@@ -19,9 +35,9 @@ scrolling:
 # Colors (Arc ark)
 colors:
   # Default colors
-  primary:
-    background: '#282A2E'
-    foreground: '#F0C674'
+  # primary:
+  #   background: '#282A2E'
+  #   foreground: '#F0C674'
 
   # Normal colors
   normal:
@@ -76,17 +92,5 @@ cursor:
     blink-interval: 750
     unfocused_hollow: true
 
-key_bindings:
-  #spring ein Wort nach rechts
-  - { key: Right, mods: Control, chars: "\x1BF" }
-  #spring ein Wort nach links
-  - { key: Left,  mods: Control, chars: "\x1BB" }
-  #lösche ein Wort links
-  - { key: Back,  mods: Control, chars: "\x17" }
-  #unbinding shortcuts
-  - { key: V,  mods: Control, action: "none" }
-  #- { key: C,  mods: Control, action: "none" }
-  - { key: Delete,  mods: Control, action: "none" }
-  - { key: Delete,  mods: Alt, action: "none" }
-  - { key: Right,  mods: Control | Shift, action: "none" }
-  - { key: Left,  mods: Control | Shift, action: "none" }
+
+

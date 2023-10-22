@@ -123,3 +123,15 @@ sudo dnf install gscreenshot
 * Sound Input & output Device Chooser
 * WinTile ?
 * pop shell (dnf)
+
+
+# MacOs
+
+## Programme
+* brew
+* Rectangle
+* Karabiner-Elements
+
+# Karabiner-Elements
+* https://ke-complex-modifications.pqrs.org/#german_pc_shortcuts
+* change "~/.config/karabiner/karabiner.json" bei "from" von "right_option" zu "right_command"

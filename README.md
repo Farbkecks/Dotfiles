@@ -1,9 +1,9 @@
 # i3wm-gaps Fedora i3 spin
 
-## To-Do
+### To-Do
 * https://github.com/AdnanHodzic/auto-cpufreq
 
-## Install
+### Install
 ```
 sudo dnf update
 ```
@@ -41,7 +41,7 @@ sudo dnf install polybar alacritty feh jetbrains-mono-fonts-all fontawesome5-fon
 * lightdm-gtk-greeter-settings
 * grub-customizer
 
-## Add to dnf config
+### Add to dnf config
 ```
 sudo vim /etc/dnf/dnf.conf
 
@@ -50,7 +50,7 @@ max-parallel_downloads=10
 defaultyes=True
 ```
 
-## Add lf
+### Add lf
 * https://github.com/gokcehan/lf/releases
 * hier die 64bit Version (lf-linux-amd64.tar.gz)
 ```
@@ -59,22 +59,22 @@ chmod +x lf
 sudo mv lf /usr/local/bin
 ```
 
-## See Key code
+### See Key code
 * strg + v
 * key
 
-## Fix Tearing
+### Fix Tearing
 * TearFree
 
-## scaling
+### scaling
 * https://unix.stackexchange.com/questions/267885/how-do-i-scale-i3-window-manager-for-my-hidpi-display
 
-## Update Font
+### Update Font
 ```
 sudo fc-cache -fv
 ```
 
-## Better Terminal
+### Better Terminal
 ```
 #!/bin/bash
 touch "$HOME/.cache/zshhistory"
@@ -96,27 +96,27 @@ p10k configure
 ```
 reboot
 ```
-## Install gscreenshot
+### Install gscreenshot
 ```
 sudo dnf copr enable thenaterhood/gscreenshot
 sudo dnf install gscreenshot
 ```
 
-## Geklaut von:
+### Geklaut von:
 * https://github.com/olemartinorg/i3-alternating-layout
 * https://fontawesome.com/v5/cheatsheet
 * https://www.christitus.com/zsh/
 * https://www.youtube.com/watch?v=eLEo4OQ-cuQ
 
 # Gnome (Fedora)
-## Hilfreich
+### Hilfreich
 * https://www.hutsky.cz/blog/2021/05/gnome-3-and-switch-to-workspace-5-and-above-shortcut/
 
 
-## Pakete
+### Pakete
 * extension-manager
 
-## Extention
+### Extention
 * Dash to Panel
 * Blur my Shell
 * Media Controls

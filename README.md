@@ -131,6 +131,13 @@ sudo dnf install gscreenshot
 * brew
 * Rectangle
 * Karabiner-Elements
+* Amphetamine
+* BatFi
+* iTerm
+* LanguageTool
+* ONLYOFFICE
+* Stats
+* 
 
 ### Karabiner-Elements
 * https://ke-complex-modifications.pqrs.org/#german_pc_shortcuts
